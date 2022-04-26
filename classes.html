@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sapnaarts</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.8/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.8/slick-theme.css"/>
+</head>
+<body>
+    <!--section-1-start-->
+    <section class="top-section">
+        <div class="art-logo d-flex justify-content-between">
+            <img src="images/logo.png" alt="sapnaarts-logo">
+            <div class="social-links">
+              <ul class="social">
+                <li>
+                  <a href="mailto:saps0706@gmail.com"><span class="bi bi-envelope" aria-hidden="true"></span>saps0706@gmail.com</a>
+                </li>
+                <li>
+                  <a href="tel:+91-9880540791"><span class="bi bi-phone" aria-hidden="true"></span>+91-9880540791</a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/" title="">
+                        <span class="fa wp-icon fa-facebook-f fa-lg"></span>
+                    </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/" title="">
+                      <span class="icon fa fa-twitter"></span>
+                  </a>
+              </li>
+                <li>
+                    <a href="https://youtube.com/" title="">
+                        <span class="icon fa fa-youtube-play"></span>
+                    </a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </section>
+     <!--section-1-end-->
+     <!--header-start-->
+     <header class="header">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#about-us">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#our-products">Our Arts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="classes.html">Our Classes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html#contact-us">Contact Us</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+     </header>
+     <!--header-end-->
+     <!--section-3-start-->
+     <section id="kids-section">
+       <div class="container">
+        <div class="kids-heading">
+          <h2>Kids getting Bored At Home? Join our Fun-filled LIVE Online and direct Drawing Classes to Learn How to Draw, Paint, Sketch from Sapna Arts</h2>
+          <img src="images/line.png" alt="line">
+          <p>Unlock the Door to your Kid’s Creativity! Give Colour to their Thoughts and Paint their Imagination Online Drawing Classes for Kids by Sapna Arts is a Complete Certification Course</p>
+         </div>
+         <div class="row pt-5">
+          <div class="col-md-6">
+            <div id="form-box">
+               <h2>Enroll Your Kid for Drawing Lessons Online!</h2>
+               <p>Provide Your Details & Get a callback</p>
+               <form  onsumbit="sendEmail(); reset();" method="post" data-form-title="CONTACT US">
+                 <input type="hidden" data-form-email="true">
+                 <div class="form-group">
+                   <input type="text" class="form-control" name="name" required="" placeholder="Parents Name*" id="name" data-form-field="Name">
+                 </div>
+                 <div class="form-group">
+                   <input type="email" class="form-control" name="email" required="" placeholder="Email*" id="email" data-form-field="Email">
+                 </div>
+                 <div class="form-group">
+                   <input type="tel" class="form-control" name="phone" placeholder="Phone" id="phone" data-form-field="Phone">
+                 </div>
+                 <div class="form-group">
+                   <input type="text" class="form-control" name="name" required="" placeholder="kids Name" id="subject" data-form-field="Name">
+                 </div>
+                 <div class="form-group">
+                   <select class="form-control" id="state">
+                     <option>State</option> 
+                     <option>Karnataka</option>
+                     <option>Tamilnadu</option>
+                     <option>Kerala</option>
+                     <option>Telengana</option>
+                     <option>Andrapradesh</option>
+                   </select>
+                 </div>
+                 <div class="form-group">
+                   <input type="text" class="form-control" name="name" required="" placeholder="Age" id="age" data-form-field="Name">
+                 </div>
+                 <div class="form-group">
+                   <textarea class="form-control" name="message" placeholder="Message" rows="7" id="message"  data-form-field="Message"></textarea>
+                 </div>
+                 <div>
+                   <button type="submit" id="get">Get Started</button>
+                 </div>
+               </form>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="about-course">
+              <h2>Course Specially Designed for Kids</h2>
+            </div>
+            <div class="course-content">
+              <div class="row content-row pt-3">
+                <div class="col-md-3">
+                  <img src="images/color-palette.svg" alt="color-palette">
+                </div>
+                <div class="col-md-9">
+                  <span>Kids who want to learn How to Draw</span>
+                </div>
+              </div>
+              <div class="row content-row">
+                <div class="col-md-3">
+                  <img src="images/creativity_1.svg" alt="color-palette">
+                </div>
+                <div class="col-md-9">
+                  <span>Willing to enhance creativity skills</span>
+                </div>
+              </div>
+              <div class="row content-row">
+                <div class="col-md-3">
+                  <img src="images/tools.svg" alt="color-palette">
+                </div>
+                <div class="col-md-9">
+                  <span>Who need to upgrade their drawing skills for better merits</span>
+                </div>
+              </div>
+              <div class="row content-row">
+                <div class="col-md-3">
+                  <img src="images/book_1.svg" alt="color-palette">
+                </div>
+                <div class="col-md-9">
+                  <span>Kids who want to learn a new skill in their free time</span>
+                </div>
+              </div>
+            </div>
+          </div>
+         </div>
+       </div>
+     </section>
+     <!--section-3-end-->
+     <!--section-4-start-->
+     <section class="process">
+       <div class="container">
+        <div class="kids-learing">
+          <h2>What Your Kids will Learn</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="stage-1">
+                <ul>
+                  <li>Fundamentals of Drawing</li>
+                  <li>Shading techniques</li>
+                  <li>A process and structure to creating a drawing from start to finish</li>
+                  <li>A system to draw hands, eyes, portraits and any object imaginable!</li>
+                  <li>Techniques to draw a viewers' attention to desired focal points in your drawings</li>
+                  <li>About Drawing & Painting Materials such as different Pencil leads and what is the usage of each one</li>
+                </ul>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="stage-1">
+                <ul>
+                  <li>How to draw a portrait from scratch!</li>
+                  <li>How to simplify objects to make them easy to draw!</li>
+                  <li>Different approaches to drawing to see what works best for you</li>
+                  <li>How to create and use axis lines to make getting proportions easy</li>
+                  <li>A quick easy trick to making sure you get perfect values and shading every time!</li>
+                  <li>An approach to preliminary shading and how to easily shade to create realism in your drawings!</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+       </div>
+
+     </section>
+      <!--section-4-end-->
+     <!--footer-start-->
+     <footer class="footer">
+      <div class="container">
+       <img class="footer-logo" src="images/logo.png" alt="footer-logo">
+       <div class="row pt-3">
+         <div class="col-md-4">
+           <div class="footer-menu-1">
+             <h2>About Us</h2>
+             <p>Ideas for Home Decor and Gifting for your loved ones. Paintings shown here are only samples and come in various sizes. If you are interested in custom-made artwork, please leave your contact details below and we will get in touch soon.</p>
+             <a href="">View More</a>
+           </div>
+         </div>
+         <div class="col-md-4">
+           <div class="footer-menu-2">
+               <h3>Our Arts</h3>
+               <ul>
+                 <li><a href="">Kerala mural Arts</a></li>
+                 <li><a href="">Color Pencil Arts</a></li>
+                 <li><a href="">Oil Painting Arts</a></li>
+                 <li><a href="">Charcoal Arts</a></li>
+                 <li><a href="">Canvas Painting Arts</a></li>
+               </ul>
+           </div>
+         </div>
+         <div class="col-md-4">
+           <div class="footer-menu-3">
+             <h3>Reach US</h3>
+             <ul>
+               <li>
+                 <i class="fa fa-map-marker" aria-hidden="true"></i>
+                 <a href="">Sapna Arts, Near Mahindra Motors,<br>Bommanahalli,<br>Electronic City,Karnataka-	560017.</a>
+               </li>
+               <li>
+                 <i class="fa fa-phone" aria-hidden="true"></i>
+                 <a href="tel:+91-9880540791">+91-9880540791</a>
+               </li>
+               <li>
+                 <i class="fa fa-envelope" aria-hidden="true"></i>
+                 <a  href="mailto:saps0706@gmail.com">saps0706@gmail.com</a>
+               </li>
+             </ul>
+             <div class="social-links-footer d-none d-md-flex align-items-center">
+               <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+               <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+               <a href="#" class="twitter"><i class="bi bi-youtube"></i></a>
+             </div>
+           </div>
+         </div>
+        </div>
+        <div class="copyrights">
+         <p>© 2022 All Rights Reserved by Sapna Arts.</p>
+        </div>
+      </div>
+    </footer>
+    <!--footer-end-->
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+</body>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.8/slick.min.js"></script>
+<script>
+  var get = document.getElementById('get');
+  get.addEventListener('click', function(e){
+    e.preventDefault()
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var phone = document.getElementById('phone').value;
+    var subject = document.getElementById('subject').value;
+    var state = document.getElementById('state').value;
+    var age = document.getElementById('age').value;
+    var message = document.getElementById('message').value;
+    var body ='Name:' +name + '<br/> Email:' +email + '<br/> Phone:' +phone + '<br/> kids Name:' +subject + '<br/> State: '+state +'<br/> Age:' +age +'<br/> Message:' +message;
+    Email.send({
+      Host : "smtp.gmail.com",
+    Username : "saps0706@gmail.com",
+    Password : "dkauynlgebkmlohn",
+    To : 'saps0706@gmail.com',
+      From : email,
+      Subject : subject,
+      Body : body   
+  }).then(
+    message => alert(message)
+  );
+  })
+  </script>
+  <script>
+    let backtotop = select('.back-to-top')
+  if (backtotop) {
+    const toggleBacktotop = () => {
+      if (window.scrollY > 100) {
+        backtotop.classList.add('active')
+      } else {
+        backtotop.classList.remove('active')
+      }
+    }
+    window.addEventListener('load', toggleBacktotop)
+    onscroll(document, toggleBacktotop)
+  }
+</script>
+</html>
